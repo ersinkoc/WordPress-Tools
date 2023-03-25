@@ -7,7 +7,7 @@ DOMAIN="$1"
 if [ -z "$DOMAIN" ]
 then
     echo "Domain name is required"
-    echo "Usage: wordpress-install.sh example.com"
+    echo "Usage: install-wordpress.sh example.com"
     exit 1
 fi
 
